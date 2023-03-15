@@ -1,0 +1,27 @@
+body { 
+    background-color: rgb(25, 19, 69);
+}
+
+.homePage {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.homePage img {
+    height: 500px;
+}
+
+.homePage h3{
+    color: white;
+    font-size: 30px;
+}
+
+.homePage p {
+    color: white;
+    font-size: 20px;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+}

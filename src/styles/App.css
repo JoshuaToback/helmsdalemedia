@@ -1,0 +1,130 @@
+/* Universal Styling */
+:root {
+  --carolinablue: rgb(75, 156, 211);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+  transition: all 0.3s ease-in-out;
+  /* debugging  */
+  /* border: 1px solid red; */
+
+};
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+/* NavBar Stylings */
+.nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+ height: fit-content;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav img {
+  width: 300px;
+  margin-right: 100px;
+
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar li {
+  padding: 7px 10px;
+  color: inherit;
+  text-decoration: none;
+  font-size: 20px;
+  height: 100%;
+}
+
+.navbar li:hover {
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  transition: none;
+}
+
+.contactBtn {
+  background-color: white;
+  padding: 20px;
+  color: darkblue;
+  list-style: none;
+}
+
+.contactBtn:hover {
+  background-color: rgba(203, 250, 255, 0.8);
+}
+
+
+/* Footer Style */
+
+.footer {
+  background-color: rgb(44, 0, 85);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.footer ul {
+  padding: 20px;
+}
+
+.footer a {
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: rgb(92, 92, 235);
+}
+
+.footer li {
+  padding: 20px;
+  font-size: 20px;
+  list-style: none;
+}
