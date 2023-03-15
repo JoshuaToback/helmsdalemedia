@@ -4,6 +4,7 @@ import Navbar from "./navbar";
 import Home from "./pages/home";
 import Digitization from "./pages/digitization";
 import Publishing from "./pages/publishing";
+import Faq from "./pages/faq"
 
 // eslint-disable-next-line
 import "./styles/App.css";
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/Digitization" element={<Digitization />}></Route>
           <Route path="/Publishing" element={<Publishing />}></Route>
+          <Route path="/faq" element={<Faq />}></Route>
         </Routes>
         <Footer />
       </Container>
