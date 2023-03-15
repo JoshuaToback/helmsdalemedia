@@ -5,40 +5,31 @@ import Digi from "../images/digi.jpg";
 import MyCity from "../images/mycity.jpg";
 import HomeProp from "../components/HomeProp";
 import { Link } from "react-router-dom";
-// import Digitization from "./digitization";
-// import Publishing from "./publishing";
 
-const info = {
-  title: ["Helmsdale Media Digitization", "Helmsdale Media Publishing"],
-  src: [Digi, MyCity],
-  desc: [
-    "Save your memories before they fade away. We can convert your video, photo and audio tapes to a shareable digital format at reasonable prices!",
-    "If the view outside your window is a bit ordinary, use your imagination to make it extraordinary!  Now available at Amazon and Barnes & Noble.",
-  ],
-  link: ["/digitization", "/publishing"],
-};
+
+const info = [
+  { title: 'Helmsdale Media Digitization', src: Digi, desc: "Save your memories before they fade away. We can convert your video, photo and audio tapes to a shareable digital format at reasonable prices!", link: '/digitization' },
+  { title: 'Helmsdale Media Publishing', src: MyCity, desc: "If the view outside your window is a bit ordinary, use your imagination to make it extraordinary!  Now available at Amazon and Barnes & Noble.", link: '/publishing' },
+];
+
 
 function home() {
   return (
-    <>
-        <div className="homePage">
-          <HomeProp
-            title={info.title[0]}
-            src={Digi}
-            desc={info.desc[0]}
-            link={<CustomLink to={info.link[0]}>Learn More</CustomLink>}
-          />
-
-          <HomeProp
-            title={info.title[1]}
-            src={MyCity}
-            desc={info.desc[1]}
-            link={<CustomLink to={info.link[1]}>Learn More</CustomLink>}
-          />
-        </div>
-    </>
+    <div className="homePage">
+      {info.map((homeProp, index) => (
+        <HomeProp
+          key={index}
+          title={homeProp.title}
+          src={homeProp.src}
+          desc={homeProp.desc}
+          link={<CustomLink to={homeProp.link}>Learn More</CustomLink>}
+        />
+      ))}
+    </div>
   );
 }
+
+
 
 export default home;
 
