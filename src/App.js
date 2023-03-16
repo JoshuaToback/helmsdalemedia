@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import Digitization from "./pages/digitization";
 import Publishing from "./pages/publishing";
 import Faq from "./pages/faq"
+import Dropoff from "./pages/dropoff.js"
 
 // eslint-disable-next-line
 import "./styles/App.css";
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Digitization" element={<Digitization />}></Route>
           <Route path="/Publishing" element={<Publishing />}></Route>
           <Route path="/faq" element={<Faq />}></Route>
+          <Route path="/dropoff" element={<Dropoff />}></Route>
         </Routes>
         <Footer />
       </Container>
