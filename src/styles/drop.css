@@ -1,0 +1,19 @@
+.dropTitle {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 30px;
+  }
+  
+
+.dropContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  padding: 20px;
+}
+
+.dropContainer h2 {
+    font-size: 40px;
+}

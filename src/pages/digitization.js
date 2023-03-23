@@ -42,7 +42,7 @@ function digitization() {
             <CustomLink to="/faq">How Does It Work?</CustomLink>
           </button>
 
-          <CustomLink to="/dropoff" className="dropOff">Convient Drop-off Locations in Fuquay-Varina and Cary</CustomLink>
+          <CustomLink to="/dropoff" className="dropOff">Convenient Drop-off Locations in Fuquay-Varina and Cary</CustomLink>
         </center>
         <div className="productContainer">
           {products.map((productProp, index) => (
@@ -64,7 +64,7 @@ export default digitization;
 
 function CustomLink({ to, children, ...props }) {
   return (
-    <li>
+    <li className="link">
       <Link to={to} {...props}>
         {children}
       </Link>

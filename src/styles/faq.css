@@ -1,0 +1,28 @@
+.faq {
+    background-color: rgb(0, 69, 0);
+    color: white;
+    padding: 20px;
+}
+
+.questionContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.questionContainer h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.questionContainer p {
+    font-size: 20px;
+}
+
+.question {
+    width: 600px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+

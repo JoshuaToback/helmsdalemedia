@@ -39,6 +39,13 @@
   width: fit-content;
 }
 
+
+.dropOff {
+  font-weight: bold;
+  font-size: 30px;
+  border-bottom:  2px solid white;
+}
+
 /* ProductContainer */
 
 .productImage {
