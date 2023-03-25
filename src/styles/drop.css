@@ -17,3 +17,15 @@
 .dropContainer h2 {
     font-size: 40px;
 }
+
+.location {
+  box-shadow: 2px 2px black;
+}
+
+.location h3 {
+  font-size: 22px;
+}
+
+.location p {
+  font-size: 18px;
+}

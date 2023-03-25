@@ -1,0 +1,34 @@
+.publishRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.bookInfo {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    color: white;
+}
+
+.bookInfo h2 {
+    font-size: 40px;
+}
+
+.bookInfo p {
+    width: fit-content;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.bookInfo li {
+    list-style: none;
+    width: fit-content;
+    border-bottom: 2px white solid;
+}
+
+.bookInfo img {
+    width: fit-content;
+}
