@@ -10,7 +10,7 @@
 
   The official website for Helmsdale Media, a multimedia company that perserves videos and photos, and is also responsible for smash-hit books like "My City View!"
   
-  Check out the deployed site ![here](https://joshuatoback.github.io/helmsdalemedia/)
+  Check out the deployed site [here](https://joshuatoback.github.io/helmsdalemedia/)!
   
   ## Licenses
     This project is covered under the MIT license. To learn more about what this means, click the license button at the top.
