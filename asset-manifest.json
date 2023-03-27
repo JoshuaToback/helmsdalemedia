@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/css/main.d62b5597.css",
+    "main.js": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/js/main.0bc84543.js",
+    "static/media/NerdsToGo.jpg": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/NerdsToGo.5fd77268a6ca049e96fe.jpg",
+    "static/media/digi.jpg": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/digi.f900aef854a34f9e67ca.jpg",
+    "static/media/downtownFuquay.jpg": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/downtownFuquay.42ded847ab81a3920957.jpg",
+    "static/media/mycity.jpg": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/mycity.245e549909f2d0b63813.jpg",
+    "static/media/myCityPoster.jpeg": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/myCityPoster.129ed2d86921ea46cb50.jpeg",
+    "static/media/miniDV.jpeg": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/miniDV.a4b536036ccf80272caf.jpeg",
+    "static/media/Negatives.jpg": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/Negatives.ae906baa49f8abda1421.jpg",
+    "static/media/Photographs.jpg": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/Photographs.5633db9a401013a0a548.jpg",
+    "static/media/Vromans.png": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/Vromans.247d5e8a22999a0130e6.png",
+    "static/media/Amazon.png": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/Amazon.e93231c1cc69a8eba363.png",
+    "static/media/Super8.jpg": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/Super8.767ba09ad7aaede9561d.jpg",
+    "static/media/Digital8.jpg": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/Digital8.0de9d068ef223b697e3d.jpg",
+    "static/media/Barnes.png": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/Barnes.c043f516728c8ef1afa2.png",
+    "static/media/Walmart.png": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/Walmart.5e4e45e418e22b7e67f4.png",
+    "static/media/Slides.jpg": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/Slides.60b1d72e55eb032a93af.jpg",
+    "static/media/AudioC.jpg": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/AudioC.c3d6f5054066b25eadbd.jpg",
+    "static/media/BookSoup.png": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/media/BookSoup.b45cb80269450c07cc64.png",
+    "index.html": "/git@github.com:JoshuaToback/helmsdalemedia.git/index.html",
+    "main.d62b5597.css.map": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/css/main.d62b5597.css.map",
+    "main.0bc84543.js.map": "/git@github.com:JoshuaToback/helmsdalemedia.git/static/js/main.0bc84543.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d62b5597.css",
+    "static/js/main.0bc84543.js"
+  ]
+}
