@@ -34,14 +34,13 @@ function publishing() {
         </div>  
 
         <div className='marketplaces'>
-        {markets.map((marketProp, index) => (
-          <Marketplaces
-          key={index}
-          image={marketProp.image}
-          link={<CustomLink to={marketProp.link} />}
-           />
-        ))}
-          <h2>Test</h2>
+          {markets.map((marketProp, index) => (
+            <Marketplaces
+              key={index}
+              src={marketProp.src}
+              link={marketProp.link}
+            />
+          ))}
         </div>
       </Row>
     </Container>
