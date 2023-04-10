@@ -1,16 +1,20 @@
 .digiContainer {
     background-color: rgba(21, 74, 35);
+    
     width: 100%;
     height: 100%;
     margin-top: 20px;
 }
 
-.hero {
-  background-color: rgba(87, 182, 87, 0.4);
+.hero { 
+  background-image: linear-gradient(to bottom, rgba(0, 64, 0, 0.6), rgba(0, 65, 0, 0.6)), url("../images/digiHero.avif");
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
   color: white;
   padding: 20px;
   width: 100%;
-  height: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -18,8 +22,10 @@
 }
 
 .hero h1 {
-  font-size: 48px;
+  font-size: 60px;
   margin: 10px;
+  margin-top: 4rem;
+  padding: 20px;
 }
 
 .hero p {
@@ -88,4 +94,9 @@
   height: 200px;
   padding: 10px;
   object-fit: cover;
+}
+
+.productRow {
+  padding: 20px;
+  text-align: center;
 }
