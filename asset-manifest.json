@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/helmsdalemedia/static/css/main.d62b5597.css",
+    "main.css": "/helmsdalemedia/static/css/main.c02635d8.css",
     "main.js": "/helmsdalemedia/static/js/main.5c7d2847.js",
+    "static/media/faq.jpg": "/helmsdalemedia/static/media/faq.dc57fc56e1a4817b78c5.jpg",
     "static/media/NerdsToGo.jpg": "/helmsdalemedia/static/media/NerdsToGo.5fd77268a6ca049e96fe.jpg",
+    "static/media/digiHero.avif": "/helmsdalemedia/static/media/digiHero.78f51c3207af89ac1867.avif",
     "static/media/digi.jpg": "/helmsdalemedia/static/media/digi.f900aef854a34f9e67ca.jpg",
     "static/media/downtownFuquay.jpg": "/helmsdalemedia/static/media/downtownFuquay.42ded847ab81a3920957.jpg",
     "static/media/mycity.jpg": "/helmsdalemedia/static/media/mycity.245e549909f2d0b63813.jpg",
@@ -20,11 +22,11 @@
     "static/media/AudioC.jpg": "/helmsdalemedia/static/media/AudioC.c3d6f5054066b25eadbd.jpg",
     "static/media/BookSoup.png": "/helmsdalemedia/static/media/BookSoup.b45cb80269450c07cc64.png",
     "index.html": "/helmsdalemedia/index.html",
-    "main.d62b5597.css.map": "/helmsdalemedia/static/css/main.d62b5597.css.map",
+    "main.c02635d8.css.map": "/helmsdalemedia/static/css/main.c02635d8.css.map",
     "main.5c7d2847.js.map": "/helmsdalemedia/static/js/main.5c7d2847.js.map"
   },
   "entrypoints": [
-    "static/css/main.d62b5597.css",
+    "static/css/main.c02635d8.css",
     "static/js/main.5c7d2847.js"
   ]
 }
