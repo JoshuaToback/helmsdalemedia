@@ -19,6 +19,7 @@
 
 .questionContainer {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 20px;
@@ -38,4 +39,19 @@
   width: 600px;
   flex-wrap: wrap;
   padding: 20px;
+}
+
+/* Media Query for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+  .faq h1 {
+    font-size: 40px;
+  }
+  
+  .questionContainer h3 {
+    font-size: 24px;
+  }
+  
+  .questionContainer p {
+    font-size: 16px;
+  }
 }

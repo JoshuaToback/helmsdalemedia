@@ -1,12 +1,13 @@
 import React from 'react'
 
+import "../styles/home.css"
+
 function HomeProp(props) {
   return (
-    <div>
+    <div className='homeProp'>
       <img alt={props.title}
       className="homeImage"
       src={props.src}
-      style={{margin: '0 auto'}}
       />
 
       <h3>{props.title}</h3>

@@ -100,3 +100,40 @@
   padding: 20px;
   text-align: center;
 }
+
+/* Media queries for mobile screens */
+
+@media (max-width: 768px) {
+
+  .hero h1 {
+    font-size: 40px;
+    margin-top: 2rem;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .productImage {
+    height: 150px;
+  }
+
+  .product {
+    margin: 10px;
+    width: 150px;
+  }
+
+  .products p {
+    font-size: 24px;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .products img {
+    height: 150px;
+  }
+
+  .productRow {
+    padding: 10px;
+  }
+}

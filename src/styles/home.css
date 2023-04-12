@@ -11,7 +11,7 @@ body {
 }
 
 .homePage img {
-    height: 500px;
+    height: 400px;
 }
 
 .homePage h3{
@@ -25,3 +25,23 @@ body {
     inline-size: 500px;
     overflow-wrap: break-word;
 }
+
+@media screen and (max-width: 767px) {
+    .homePage {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    
+    .homePage img {
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      width: auto;
+      margin-right: 20px;
+    }
+  
+    .homePage p {
+      inline-size: auto;
+      overflow-wrap: break-word;
+    }
+  }
