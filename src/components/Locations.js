@@ -1,16 +1,13 @@
 import React from "react";
 
+import "../styles/drop.css";
+
 function Locations(props) {
   return (
     <div
       className="location"
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7) ,rgba(0, 0, 0, 0.7)), url(${props.image})`,
-        backgroundSize: "cover",
-        width: "500px",
-        tintColor: "black",
-        padding: "20px",
-        backgroundPosition: "center",
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7) ,rgba(0, 0, 0, 0.7)), url(${props.image})`
       }}
     >
       <h2>{props.location}</h2>
