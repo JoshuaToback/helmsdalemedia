@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/helmsdalemedia/static/css/main.59a5e1c9.css",
-    "main.js": "/helmsdalemedia/static/js/main.7264f1a3.js",
+    "main.css": "/helmsdalemedia/static/css/main.3060fc0b.css",
+    "main.js": "/helmsdalemedia/static/js/main.ae353bcc.js",
     "static/media/faq.jpg": "/helmsdalemedia/static/media/faq.dc57fc56e1a4817b78c5.jpg",
     "static/media/NerdsToGo.jpg": "/helmsdalemedia/static/media/NerdsToGo.5fd77268a6ca049e96fe.jpg",
     "static/media/digiHero.avif": "/helmsdalemedia/static/media/digiHero.78f51c3207af89ac1867.avif",
@@ -22,11 +22,11 @@
     "static/media/AudioC.jpg": "/helmsdalemedia/static/media/AudioC.c3d6f5054066b25eadbd.jpg",
     "static/media/BookSoup.png": "/helmsdalemedia/static/media/BookSoup.b45cb80269450c07cc64.png",
     "index.html": "/helmsdalemedia/index.html",
-    "main.59a5e1c9.css.map": "/helmsdalemedia/static/css/main.59a5e1c9.css.map",
-    "main.7264f1a3.js.map": "/helmsdalemedia/static/js/main.7264f1a3.js.map"
+    "main.3060fc0b.css.map": "/helmsdalemedia/static/css/main.3060fc0b.css.map",
+    "main.ae353bcc.js.map": "/helmsdalemedia/static/js/main.ae353bcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.59a5e1c9.css",
-    "static/js/main.7264f1a3.js"
+    "static/css/main.3060fc0b.css",
+    "static/js/main.ae353bcc.js"
   ]
 }
