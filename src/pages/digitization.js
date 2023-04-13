@@ -38,9 +38,11 @@ function digitization() {
             computer, phone or Smart TV. Easily share with family and friends
             around the block or around the world.
           </p>
+          <CustomLink to="/faq">
           <button className="contactBtn">
-            <CustomLink to="/faq">How Does It Work?</CustomLink>
+            How Does It Work?
           </button>
+          </CustomLink>
 
           <div className="dropOff">
             <CustomLink to="/dropoff" ><p>Convenient Drop-off Locations in Fuquay-Varina and Cary</p></CustomLink>

@@ -17,6 +17,19 @@
     font-size: 40px;
 }
 
+.bookInfo h3 {
+  border: 2px white dotted;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.bookInfo h3:hover {
+  background-color: rgb(81, 174, 255);
+  color: white;
+
+}
+
 .bookInfo p {
     width: fit-content;
     flex-wrap: wrap;
@@ -48,6 +61,7 @@
 
     .publishRow {
       flex-direction: column;
+      justify-content: center;
     }
   
     .bookInfo {
@@ -62,6 +76,7 @@
     .bookInfo img {
         width: 400px;
         padding: 20px;
+        align-self: center;
     }
   
     .bookInfo p {

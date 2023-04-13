@@ -17,6 +17,11 @@
     width: 1000px;
 }
 
+.inlineLink:hover {
+    color: rgb(92, 92, 235);
+}
+
+
 @media (max-width: 768px) {
 
     .autoContainer {
@@ -31,11 +36,12 @@
     }
 
     .autoContainer p {
-        font-size: 15px;
-        width: 400px;
+        font-size: 20px;
+        width: auto;
+        text-align: left;
     }
 
     .autoContainer img {
-        width: 400px;
+        width: 350px;
     }
 }

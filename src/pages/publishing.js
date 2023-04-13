@@ -29,7 +29,7 @@ function publishing() {
         <div className='bookInfo'>
           <h2>Imagination.</h2>
           <p>If the view outside your window is a bit ordinary, use your imagination to make it extraordinary! “My City View” tells the story of one young person’s journey to transform the boring and drab view outside their window into many wondrous places full of lots of little details to explore. From a circus to a rocket ship, you’ll spend a wonderful time exploring all the different scenes. Challenge your child to use their own imagination to dream up even more fantastic locations outside their own window!</p>
-          <h3><CustomLink to="/autograph"><strong>Click here for information on how to order an autographed copy.</strong></CustomLink></h3>
+          <CustomLink to="/autograph"><h3><strong>Click here for information on how to order an autographed copy.</strong></h3></CustomLink>
           <img src={myCityPoster} alt="My City View Poster" />
         </div>  
 

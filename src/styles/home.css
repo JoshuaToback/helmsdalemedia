@@ -26,18 +26,17 @@ body {
     overflow-wrap: break-word;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 768px) {
     .homePage {
       flex-direction: column;
       justify-content: space-around;
     }
     
     .homePage img {
-      height: 250px;
+      height: 300px;
       display: flex;
       justify-content: center;
       width: auto;
-      margin-right: 20px;
     }
   
     .homePage p {
