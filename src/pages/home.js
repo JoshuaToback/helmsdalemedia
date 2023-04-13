@@ -15,7 +15,7 @@ const info = [
 
 function home() {
   return (
-    <div className="homePage">
+    <center className="homePage">
       {info.map((homeProp, index) => (
         <HomeProp
           key={index}
@@ -25,7 +25,7 @@ function home() {
           link={<CustomLink to={homeProp.link}>Learn More</CustomLink>}
         />
       ))}
-    </div>
+    </center>
   );
 }
 

@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     color: white;
-    padding: 50px;
+    padding: 20px;
 }
 
 .autoContainer h1 {
@@ -43,5 +43,6 @@
 
     .autoContainer img {
         width: 350px;
+        height: auto;
     }
 }
