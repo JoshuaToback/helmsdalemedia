@@ -16,3 +16,26 @@
     font-size: 30px;
     width: 1000px;
 }
+
+@media (max-width: 768px) {
+
+    .autoContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .autoContainer h1 {
+        font-size: 40px;
+
+    }
+
+    .autoContainer p {
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .autoContainer img {
+        width: 400px;
+    }
+}

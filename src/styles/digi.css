@@ -8,7 +8,7 @@
 
 .hero { 
   background-image: linear-gradient(to bottom, rgba(0, 64, 0, 0.6), rgba(0, 65, 0, 0.6)), url("../images/digiHero.avif");
-  height: 500px; /* You must set a specified height */
+  height: 550px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -49,7 +49,12 @@
 .dropOff {
   font-weight: bold;
   font-size: 30px;
-  border-bottom:  2px solid white;
+  background-color: rgb(37, 37, 37, 0.7);
+}
+
+.dropOff p {
+  border: 2px dotted white;
+  padding: 20px;
 }
 
 /* ProductContainer */

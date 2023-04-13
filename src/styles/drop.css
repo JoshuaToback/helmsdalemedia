@@ -29,3 +29,33 @@
 .location p {
   font-size: 18px;
 }
+
+@media (max-width: 768px) {
+  .dropTitle {
+    font-size: 30px;
+    padding: 20px;
+  }
+  
+  .dropContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dropContainer h2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  
+  .location {
+    margin-top: 40px;
+  }
+  
+  .location h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .location p {
+    font-size: 16px;
+  }
+}

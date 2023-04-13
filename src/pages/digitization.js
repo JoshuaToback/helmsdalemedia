@@ -42,7 +42,9 @@ function digitization() {
             <CustomLink to="/faq">How Does It Work?</CustomLink>
           </button>
 
-          <CustomLink to="/dropoff" className="dropOff">Convenient Drop-off Locations in Fuquay-Varina and Cary</CustomLink>
+          <div className="dropOff">
+            <CustomLink to="/dropoff" ><p>Convenient Drop-off Locations in Fuquay-Varina and Cary</p></CustomLink>
+          </div>
         </center>
         <div className="productContainer">
           {products.map((productProp, index) => (

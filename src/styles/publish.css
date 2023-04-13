@@ -44,3 +44,36 @@
     margin-bottom: 10px;
   }
   
+  @media (max-width: 768px) {
+
+    .publishRow {
+      flex-direction: column;
+    }
+  
+    .bookInfo {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .bookInfo h2 {
+      font-size: 30px;
+    }
+
+    .bookInfo img {
+        width: 400px;
+        padding: 20px;
+    }
+  
+    .bookInfo p {
+      font-size: 16px;
+    }
+  
+    .bookInfo li {
+      border-bottom: none;
+    }
+  
+    .marketplaces {
+      align-items: flex-start center;
+    }
+  
+  }
