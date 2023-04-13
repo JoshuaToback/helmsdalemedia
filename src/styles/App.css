@@ -142,22 +142,24 @@ p {
     align-items: center;
     gap: 1rem;
     padding: 1rem;
+    text-align: center;
   }
   
   .nav img {
-    width: 200px;
-    margin-right: 0;
+    width: 250px;
+    display: block;
+    margin-right: -50px;
     margin-bottom: 1rem;
   }
   
   .navbar {
-    width: 100%;
+    width: 100vw;
     justify-content: center;
+    margin-right: 30px;
   }
   
   .navbar li {
-    padding: 7px 5px;
-    font-size: 16px;
+    font-size: 20px;
   }
   
   .contactBtn {
