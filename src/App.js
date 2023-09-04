@@ -28,7 +28,7 @@ function App() {
           <Route path="/faq" element={<Faq />}></Route>
           <Route path="/dropoff" element={<Dropoff />}></Route>
           <Route path="/autograph" element={<Autograph />}></Route>
-          <Route path ="danielletoback" element={<DanielleToback />}></Route>
+          <Route path ="/danielletoback" element={<DanielleToback />}></Route>
         </Routes>
         <Footer />
       </Container>
