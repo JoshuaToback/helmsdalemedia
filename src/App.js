@@ -7,6 +7,7 @@ import Publishing from "./pages/publishing";
 import Faq from "./pages/faq"
 import Dropoff from "./pages/dropoff.js"
 import Autograph from "./pages/autograph.js"
+import DanielleToback from "./pages/danielletoback"
 
 // eslint-disable-next-line
 import "./styles/App.css";
@@ -27,6 +28,7 @@ function App() {
           <Route path="/faq" element={<Faq />}></Route>
           <Route path="/dropoff" element={<Dropoff />}></Route>
           <Route path="/autograph" element={<Autograph />}></Route>
+          <Route path ="danielletoback" element={<DanielleToback />}></Route>
         </Routes>
         <Footer />
       </Container>
